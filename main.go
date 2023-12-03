@@ -74,5 +74,5 @@ func main() {
 	fmt.Println(OrderWeight("2000 10003 1234000 44444444 9999 11 11 22 123")) //2000 103 123 4444 99
 
 	//Beeramid
-	fmt.Printf("Beeramid has %d line", Beeramid(21, 1.5))
+	fmt.Printf("Beeramid has %d line\n", Beeramid(21, 1.5)) //3
 }
