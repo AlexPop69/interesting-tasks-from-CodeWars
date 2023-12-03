@@ -32,7 +32,7 @@ func main() {
 	fmt.Println(Strong(145)) //strong
 
 	//Moving Zeros To The End
-	fmt.Println(MoveZeros([]int{0, 1, 0, 3, 12}))
+	fmt.Printf("Moving Zeros To The End: %v\n", MoveZeros([]int{0, 1, 0, 3, 12}))
 
 	//Find the odd int
 	fmt.Println(FindOdd([]int{20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5}))
@@ -60,4 +60,19 @@ func main() {
 
 	//Your order, please
 	fmt.Println(Order("4of Fo1r pe6ople g3ood th5e the2")) //Fo1r the2 g3ood 4of th5e pe6ople
+
+	//First non-repeating character
+	fmt.Println(FirstNonRepeating("stress")) //t
+
+	//Highest and Lowest (7 kyu)
+	fmt.Println(HighAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"))
+
+	// //Consecutive strings
+	// fmt.Println(LongestConsec([]string{"tree", "foling", "trashy", "blue", "abcdef", "uvwxyz"}, 2)) //"folingtrashy"
+
+	//Weight for weight
+	fmt.Println(OrderWeight("2000 10003 1234000 44444444 9999 11 11 22 123")) //2000 103 123 4444 99
+
+	//Beeramid
+	fmt.Printf("Beeramid has %d line", Beeramid(21, 1.5))
 }
